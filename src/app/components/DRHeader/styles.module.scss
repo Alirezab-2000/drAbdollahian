@@ -1,0 +1,26 @@
+@import "src/app/Assets/colors/color";
+
+.header_box{
+  height: clamp(40px, 3.4vw, 64px);
+  background-color: $header-green;
+  display: flex;
+  justify-content: space-between;
+  direction: rtl;
+  align-items: center;
+  padding: 0 20px;
+}
+.image_box{
+  display: flex;
+}
+.text{
+  font-size: clamp(12px , 1.1vw , 24px);
+}
+.gmail_size{
+  width: clamp(35px , 2vw , 50px);
+  height: clamp(35px , 2vw , 50px);
+  margin-left: 10px;
+}
+.instagram_size{
+  width: clamp(35px , 2vw , 50px);
+  height: clamp(35px , 2vw , 50px);
+}
