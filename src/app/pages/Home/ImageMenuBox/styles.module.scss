@@ -1,0 +1,15 @@
+.image_menu_box{
+  width: 100%;
+  height: 50%;
+  background-color: red;
+  direction: rtl;
+}
+.menu_box{
+  display: flex;
+}
+.menu_item{
+  font-size: clamp(12px , 1.1vw , 24px);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.image{}
