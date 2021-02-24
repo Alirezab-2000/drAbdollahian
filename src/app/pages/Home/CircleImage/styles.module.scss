@@ -1,0 +1,16 @@
+.circle{
+  width: clamp(170px , 12.5vw , 245px);
+  height: clamp(170px , 12.5vw , 245px);
+  overflow: hidden;
+  border-radius: 300px;
+}
+.img{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.text{
+  text-align: center;
+  margin-top: 10px;
+  font-size: clamp(12px , 1.1vw , 24px);
+}

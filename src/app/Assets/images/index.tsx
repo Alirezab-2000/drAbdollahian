@@ -4,6 +4,7 @@ import gmail from "./Files/gmail.jpg"
 import telephone from "./Files/telephone.jpg"
 import mainHeart from "./Files/mainHeart.jpg"
 import heartWithBody from "./Files/HeartWithBody.jpg"
+import doctors from "./Files/doctors.jpg"
 
 export default {
     gmail,
@@ -11,5 +12,6 @@ export default {
     instagram,
     mainHeart,
     map,
-    telephone
+    telephone,
+    doctors
 }

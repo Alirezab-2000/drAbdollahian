@@ -1,0 +1,22 @@
+.page_container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.circles_box{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  direction: rtl;
+}
+@media screen and (max-width: 650px){
+  .circles_box{
+    flex-direction: column;
+
+    & > * {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+}

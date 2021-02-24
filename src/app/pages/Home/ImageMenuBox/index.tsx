@@ -4,7 +4,9 @@ import styles from "./styles.module.scss"
 
 export default function ImageMenuBox() {
     return (
-        <div className={styles.image_menu_box}>
+        <div style={{
+            backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0) 0% ,rgba(100, 100, 100 , .8)), url('${Assets.Images.doctors}')`,
+        }} className={styles.image_menu_box}>
             <div className={styles.menu_box}>
                 <div className={styles.menu_item}>
                     <p>صفحه اصلی</p>

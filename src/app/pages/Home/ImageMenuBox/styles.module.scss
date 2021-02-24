@@ -1,8 +1,11 @@
 .image_menu_box{
   width: 100%;
-  height: 50%;
+  height: 48%;
+  min-height: 300px;
   background-color: red;
   direction: rtl;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .menu_box{
   display: flex;
@@ -11,5 +14,6 @@
   font-size: clamp(12px , 1.1vw , 24px);
   padding: 10px 20px;
   cursor: pointer;
+  color: white;
 }
 .image{}
