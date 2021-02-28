@@ -15,11 +15,13 @@
 }
 .text{
   font-size: clamp(12px , 1.1vw , 24px);
+  cursor: pointer;
 }
 .gmail_size{
   width: clamp(35px , 2vw , 50px);
   height: clamp(35px , 2vw , 50px);
   margin-left: 10px;
+  cursor: pointer;
 }
 .instagram_size{
   width: clamp(35px , 2vw , 50px);

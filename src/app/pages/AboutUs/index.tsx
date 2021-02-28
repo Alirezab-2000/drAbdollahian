@@ -11,12 +11,35 @@ export default function AboutUs() {
       <div className={styles.container}>
         <div className={styles.green_box} />
         <div className={styles.content_box}>
-          <DRInformationItem text={"تست اول"} />
           <DrInformationMap
-            text={"بسیار عالی"}
-            mapText={"دبیرستان"}
-            mapLink={"www.google.com"}
-            callText={"0912828282"}
+            text={"کلینیک خاتم الانبیا"}
+            mapText={"استان سمنان، سمنان، بلوار 17 شهریور"}
+            mapLink={"https://goo.gl/maps/xXoUpMr2ZiYdL18MA"}
+            callText={"023 3332 2773"}
+          />
+          <DrInformationMap
+            text={"بیمارستان شفا"}
+            mapText={"استان سمنان ،سمنان، بلواربلوار وحدت"}
+            mapLink={"https://goo.gl/maps/h8QkQoH8rQo2r5zW7"}
+            callText={"023 3344 2112"}
+          />
+          <DrInformationMap
+            text={"بیمارستان سینا"}
+            mapText={"استان سمنان ،بلوار امیرکبیر"}
+            mapLink={"https://goo.gl/maps/twShYLePhB9u64cLA"}
+            callText={"023 3348 3013"}
+          />
+          <DrInformationMap
+            text={"کیلینیک امام رضا"}
+            mapText={"استان سمنان:سمنان،میدان معلم"}
+            mapLink={"https://goo.gl/maps/ZhTvXchnRSqq9ds97"}
+            callText={"023 2182 5053"}
+          />
+          <DrInformationMap
+            text={"بیمارستان 15 خرداد سنگسر"}
+            mapText={"استان سمنان ، مهدیشهر، خیابان امام"}
+            mapLink={"https://goo.gl/maps/8uPLrBFrzyJYfvmTA"}
+            callText={"023 3362 2753"}
           />
         </div>
       </div>
