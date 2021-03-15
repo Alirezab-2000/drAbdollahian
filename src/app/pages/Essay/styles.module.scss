@@ -1,0 +1,40 @@
+@import "src/app/Assets/colors/color";
+.essay_page_container{
+  height: fit-content;
+}
+.container{
+  height: 100%;
+  display: flex;
+  direction: rtl;
+}
+.content{
+  flex: 1;
+  padding: 15px 20px 30px;
+  display: flex;
+}
+.green_box{
+  background-color: $body-blue;
+  width: 15%;
+  //height: 100%;
+  min-width: 40px;
+  border: 1px solid $light-gray;
+}
+.title_text{
+  font-size: clamp(15px , 1.5vw , 30px);
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.heart_image{
+  margin: 20px auto;
+  max-width: 400px;
+
+  & img{
+    width: 100%;
+  }
+}
+
+.content_text{
+  font-size: clamp(12px , 1.18vw , 24px);
+}
+
