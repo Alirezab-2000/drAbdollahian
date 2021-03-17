@@ -16,6 +16,17 @@
   min-width: 100px;
   border: 1px solid $light-gray;
 }
+.links{
+  margin-bottom: 15px;
+  cursor: pointer;
+  & > p {
+    font-weight: normal !important;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
 .content_box{
   direction: rtl;
   flex: 1;

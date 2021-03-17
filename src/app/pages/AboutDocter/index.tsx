@@ -2,13 +2,38 @@ import React from "react";
 import styles from "../AboutUs/styles.module.scss";
 import DRHeader from "../../components/DRHeader";
 import DrInformationMap from "../../components/DRInformationMap";
+import DRInformationItem from "../../components/DRInformationItem";
+import { useHistory } from "react-router-dom";
 
 export default function AboutDocter() {
+  const history = useHistory();
   return (
     <div className={styles.about_us_container}>
       <DRHeader />
       <div className={styles.container}>
-        <div className={styles.green_box} />
+        <div className={styles.green_box}>
+          <DRInformationItem
+            onPress={() => {
+              history.push("essay/0");
+            }}
+            className={styles.links}
+            text={"قلب چیست و چگونه کار میکند؟"}
+          />
+          <DRInformationItem
+            onPress={() => {
+              history.push("essay/1");
+            }}
+            className={styles.links}
+            text={"متخصص قلب و عروق کیست؟"}
+          />
+          <DRInformationItem
+            onPress={() => {
+              history.push("essay/2");
+            }}
+            className={styles.links}
+            text={"تاثیر ورزش بر سلامتی قلب چیست؟"}
+          />
+        </div>
         <div className={styles.content_box}>
           <DrInformationMap
             text={"فاطمه عبدالهیان"}

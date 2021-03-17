@@ -31,7 +31,7 @@ export default function Home() {
           onPress={() => {
             history.push("/essay/2");
           }}
-          text={"تاثیر ورزش بر سلامتی قلب"}
+          text={"تاثیر ورزش بر سلامتی قلب چیست؟"}
           imageSource={Assets.Images.heartWithBody}
         />
       </div>
