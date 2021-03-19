@@ -13,6 +13,7 @@ export default function AboutDocter() {
       <div className={styles.container}>
         <div className={styles.green_box}>
           <DRInformationItem
+            setSmaller={true}
             onPress={() => {
               history.push("essay/0");
             }}
@@ -20,6 +21,7 @@ export default function AboutDocter() {
             text={"قلب چیست و چگونه کار میکند؟"}
           />
           <DRInformationItem
+            setSmaller={true}
             onPress={() => {
               history.push("essay/1");
             }}
@@ -27,6 +29,7 @@ export default function AboutDocter() {
             text={"متخصص قلب و عروق کیست؟"}
           />
           <DRInformationItem
+            setSmaller={true}
             onPress={() => {
               history.push("essay/2");
             }}

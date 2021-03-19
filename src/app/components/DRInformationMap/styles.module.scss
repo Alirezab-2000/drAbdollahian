@@ -17,6 +17,8 @@
   width: clamp(17px , 1.8vw , 30px);;
   margin-left: 7px;
   overflow: hidden;
+  min-width: 17px;
+  min-height: 17px;
 }
 .call_text{
   font-size: clamp(12px , 1.1vw , 24px);
