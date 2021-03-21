@@ -28,6 +28,7 @@ export default function DrInformationMap({
                 window.open(mapLink, "_blank");
               }}
               className={styles.map_box}
+              style={{ cursor: "pointer" }}
             >
               <img className={styles.image_container} src={Assets.Images.map} />
               <p className={styles.text}>{mapText}</p>

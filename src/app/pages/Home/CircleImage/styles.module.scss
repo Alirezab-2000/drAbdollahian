@@ -2,6 +2,9 @@
 
 .component_box{
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .circle{

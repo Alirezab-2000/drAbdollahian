@@ -14,7 +14,7 @@ export default function DRHeader() {
         }}
         className={styles.text}
       >
-        دکتر عبدالهیان متخصص قلب و عروق
+        دکتر فاطمه عبدالهیان متخصص قلب و عروق
       </p>
       <div className={styles.image_box}>
         <img
