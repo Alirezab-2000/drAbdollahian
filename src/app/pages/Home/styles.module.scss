@@ -1,3 +1,5 @@
+@import "src/app/Assets/colors/color";
+
 .page_container{
   display: flex;
   flex-direction: column;
@@ -9,6 +11,7 @@
   align-items: center;
   justify-content: space-evenly;
   direction: rtl;
+  background-color: $light-cream;
 }
 @media screen and (max-width: 650px){
   .circles_box{

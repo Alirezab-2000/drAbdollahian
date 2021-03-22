@@ -18,21 +18,21 @@ export default function Home() {
             history.push("/essay/0");
           }}
           text={"قلب چیست و چگونه کار میکند؟"}
-          imageSource={Assets.Images.heartWithBody}
+          imageSource={Assets.Images.whatIsHeart}
         />
         <CircleImage
           onPress={() => {
             history.push("/essay/1");
           }}
           text={"متخصص قلب و عروق کیست؟"}
-          imageSource={Assets.Images.mainHeart}
+          imageSource={Assets.Images.heartHealth}
         />
         <CircleImage
           onPress={() => {
             history.push("/essay/2");
           }}
           text={"تاثیر ورزش بر سلامتی قلب چیست؟"}
-          imageSource={Assets.Images.heartWithBody}
+          imageSource={Assets.Images.heartAndPlay}
         />
       </div>
     </div>

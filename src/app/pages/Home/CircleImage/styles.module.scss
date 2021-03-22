@@ -12,11 +12,12 @@
   height: clamp(170px , 12.5vw , 245px);
   overflow: hidden;
   border-radius: 300px;
+  border: 1px solid $cream;
   transition: 200ms;
 
   &:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 15px 3px $dark-gray;
+    box-shadow: 0 0 15px 3px $cream;
   }
 }
 .img{
